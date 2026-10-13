@@ -7,7 +7,7 @@
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #0b0b0b;
+  background: #000000;
   opacity: 0.8; }
 
 .mfp-wrap {
@@ -84,7 +84,7 @@
   display: none !important; }
 
 .mfp-preloader {
-  color: #CCC;
+  color: #d9e6ff;
   position: absolute;
   top: 50%;
   width: auto;
@@ -94,9 +94,9 @@
   right: 8px;
   z-index: 1044; }
   .mfp-preloader a {
-    color: #CCC; }
+    color: #d9e6ff; }
     .mfp-preloader a:hover {
-      color: #FFF; }
+      color: #fdffef; }
 
 .mfp-s-ready .mfp-preloader {
   display: none; }
@@ -133,7 +133,7 @@ button::-moz-focus-inner {
   text-align: center;
   opacity: 0.65;
   padding: 0 0 18px 10px;
-  color: #FFF;
+  color: #fdffef;
   font-style: normal;
   font-size: 28px;
   font-family: Arial, Baskerville, monospace; }
@@ -144,11 +144,11 @@ button::-moz-focus-inner {
     top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333; }
+  color: #000000; }
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
-  color: #FFF;
+  color: #fdffef;
   right: -6px;
   text-align: right;
   padding-right: 6px;
@@ -158,7 +158,7 @@ button::-moz-focus-inner {
   position: absolute;
   top: 0;
   right: 0;
-  color: #CCC;
+  color: #d9e6ff;
   font-size: 12px;
   line-height: 18px;
   white-space: nowrap; }
@@ -202,19 +202,19 @@ button::-moz-focus-inner {
 .mfp-arrow-left {
   left: 0; }
   .mfp-arrow-left:after {
-    border-right: 17px solid #FFF;
+    border-right: 17px solid #fdffef;
     margin-left: 31px; }
   .mfp-arrow-left:before {
     margin-left: 25px;
-    border-right: 27px solid #3F3F3F; }
+    border-right: 27px solid #00327d; }
 
 .mfp-arrow-right {
   right: 0; }
   .mfp-arrow-right:after {
-    border-left: 17px solid #FFF;
+    border-left: 17px solid #fdffef;
     margin-left: 39px; }
   .mfp-arrow-right:before {
-    border-left: 27px solid #3F3F3F; }
+    border-left: 27px solid #00327d; }
 
 .mfp-iframe-holder {
   padding-top: 40px;
@@ -267,9 +267,9 @@ img.mfp-img {
     height: auto;
     z-index: -1;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: #444; }
+    background: #00327d; }
   .mfp-figure small {
-    color: #BDBDBD;
+    color: #d9e6ff;
     display: block;
     font-size: 12px;
     line-height: 14px; }
@@ -287,7 +287,7 @@ img.mfp-img {
 .mfp-title {
   text-align: left;
   line-height: 18px;
-  color: #F3F3F3;
+  color: #fdffef;
   word-wrap: break-word;
   padding-right: 36px; }
 
