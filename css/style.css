@@ -16307,3 +16307,14 @@ body,
     #ffacec 0 18px, #b60f6a 18px 22px, #fdffef 22px 26px,
     #ffacec 26px 40px, #ff668f 40px 42px);
 }
+
+/* home page hero: clear the absolutely positioned navbar on desktop */
+.home-hero-text {
+  padding: 4em 0;
+}
+
+@media (min-width: 992px) {
+  .home-hero-text {
+    padding-top: 12em;
+  }
+}
