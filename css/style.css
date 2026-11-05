@@ -13879,6 +13879,97 @@ textarea.form-control {
   font-weight: normal;
 }
 
+.about-page .block-2 .front.placeholder {
+  background-image:
+    repeating-linear-gradient(135deg, transparent 0 30px, rgba(182, 15, 106, 0.06) 30px 33px),
+    linear-gradient(145deg, #fdffef, #fff4f8 58%, #ffec8b);
+}
+
+.about-page .block-2 .front.placeholder::before {
+  opacity: 1;
+  background: linear-gradient(to bottom, transparent 65%, rgba(182, 15, 106, 0.12));
+}
+
+.about-page .block-2 .placeholder-monogram {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  z-index: 1;
+  display: grid;
+  width: 168px;
+  height: 168px;
+  place-items: center;
+  border: 2px solid rgba(182, 15, 106, 0.7);
+  border-radius: 50%;
+  background: rgba(253, 255, 239, 0.88);
+  box-shadow: 0 0 0 10px rgba(255, 172, 236, 0.25), 0 8px 24px rgba(94, 38, 151, 0.12);
+  color: #b60f6a;
+  font-family: var(--font-body);
+  font-size: 58px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  transform: translate(-50%, -50%);
+}
+
+.about-page .block-2 .front.placeholder .box {
+  z-index: 2;
+}
+
+.about-page .block-2 .back {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.about-page .block-2 .back p {
+  position: static;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 4px 16px 0;
+  font-size: clamp(12px, 1vw, 14px);
+  line-height: 1.45;
+  text-align: left;
+}
+
+.about-page .block-2 .author {
+  position: static;
+  flex: 0 0 auto;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid rgba(253, 255, 239, 0.25);
+}
+
+.about-page .block-2 .author .name {
+  min-width: 0;
+  font-size: clamp(15px, 1.25vw, 18px);
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+}
+
+.about-page .block-2 .author .name > span:first-child {
+  display: block;
+}
+
+.about-page .block-2 .author .position {
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+.about-page .block-2 .placeholder-avatar {
+  display: grid;
+  flex: 0 0 40px;
+  place-items: center;
+  border: 1px solid rgba(253, 255, 239, 0.75);
+  border-radius: 50%;
+  background: rgba(253, 255, 239, 0.12);
+  color: #fdffef;
+  font-family: var(--font-subheading);
+  font-size: 12px;
+}
+
 @media (max-width: 991.98px) {
   .block-2 .back {
     -webkit-transform: rotateY(0deg);
